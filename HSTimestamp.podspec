@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HSTimestamp'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'This is a lib. including some functionalities about timestamp.'
   s.swift_version 	 = '4.1'
 

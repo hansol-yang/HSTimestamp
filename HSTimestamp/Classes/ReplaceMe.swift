@@ -13,6 +13,18 @@ public class HSTimestamp {
 		return dateFormatter.string(from: date)
 	}
 	
+	public func howManyDaysPassed(_ timestamp: Double) -> Int{
+		let date = Date(timeIntervalSince1970: TimeInterval(timestamp / 1000))
+		let calendar = Calendar.current
+		let unitFlags: Set<Calendar.Component> = [.minute, .hour, .day, .weekOfYear, .month, .year, .second]
+		let now = Date()
+		let earliest = now < date ? now : date
+		let latest = (earliest == now) ? date : now
+		let components = calendar.dateComponents(unitFlags, from: earliest,  to: latest)
+		
+		return components.day!
+	}
+	
 	public func timeAgo(_ timestamp: Double, numericDates: Bool = false) -> String {
 		let date = Date(timeIntervalSince1970: TimeInterval(timestamp / 1000))
 		let calendar = Calendar.current
