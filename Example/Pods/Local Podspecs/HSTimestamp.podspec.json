@@ -1,0 +1,22 @@
+{
+  "name": "HSTimestamp",
+  "version": "0.1.0",
+  "summary": "A short description of HSTimestamp.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/hansol-yang/HSTimestamp",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "hansol-yang": "hansolyan9@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/hansol-yang/HSTimestamp.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HSTimestamp/Classes/**/*"
+}

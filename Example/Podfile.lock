@@ -1,0 +1,16 @@
+PODS:
+  - HSTimestamp (0.1.0)
+
+DEPENDENCIES:
+  - HSTimestamp (from `../`)
+
+EXTERNAL SOURCES:
+  HSTimestamp:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HSTimestamp: f6d85e52a8a839b74cc9c56c8ddac9659192b2d6
+
+PODFILE CHECKSUM: c1aee98e318b1c08fcbe2525621b7aa0df46857b
+
+COCOAPODS: 1.5.2

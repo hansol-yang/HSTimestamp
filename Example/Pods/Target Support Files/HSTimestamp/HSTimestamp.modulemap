@@ -1,0 +1,6 @@
+framework module HSTimestamp {
+  umbrella header "HSTimestamp-umbrella.h"
+
+  export *
+  module * { export * }
+}
