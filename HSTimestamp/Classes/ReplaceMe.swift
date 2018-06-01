@@ -94,4 +94,7 @@ public enum HSDateFormat: String {
 	case Default = "yyyy-MM-dd HH:mm:ss"
 	case DateWithDash = "yyyy-MM-dd"
 	case DateWithDot = "yyyy.MM.dd"
+	case Year = "yyyy"
+	case Month = "MM"
+	case Day = "dd"
 }
